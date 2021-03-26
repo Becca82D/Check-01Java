@@ -1,4 +1,4 @@
-public class Capitulo {
+public class Capitulo extends Temporada {
 
     private Integer numeroCapitulo;
     private String titulo;

@@ -15,9 +15,6 @@ public class Serie implements IAcciones {
 
     }
 
-    //list<Temporada>temporadas
-    //list<Personaje> personajes
-
     public Serie(Integer id, String titulo, String genero, Integer anio, String sinopsis, List<Teporada> temporadas, List<Personaje> personajes){
         this.id = id;
         this.titulo = titulo;
@@ -31,6 +28,18 @@ public class Serie implements IAcciones {
     public Integer getId() {
         return id;
     }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public String getTitulo() {
+        return titulo;
+    }
+
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
+    }
 }
 
-//Serie conecta con IAcciones y Usuario
+// IAcciones <== Serie  ==> Usuario

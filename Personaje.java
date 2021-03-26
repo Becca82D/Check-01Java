@@ -1,7 +1,7 @@
 
-public class Personaje {
+public class Personaje extends Serie{
 
-    private Integer id;
+    private Integer id; //autoincrement 1000
     private String actor;
     private String nombrePersonaje;
 
@@ -39,5 +39,13 @@ public class Personaje {
         this.nombrePersonaje = nombrePersonaje;
     }
 
+    @Override
+    public String toString(){
+        return "Personaje{" +
+                'personaje=' + personaje +
+                ', actor=' + actor +
+                ', nombrePersonaje=' + nombrePersonaje
+                '}';
+    }
 
 }
