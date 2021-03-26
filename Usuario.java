@@ -9,7 +9,7 @@ public class Usuario {
 //Resolver como agregar void throws Exception
 //usuario conecta con Persona y Serie
 
-//tiene addSerie(serie serie)
+//addSerie(serie serie)
 //verCap(Serie serie)
 //cantCapVistos() int
 //listarContViendo() void throws Exception
