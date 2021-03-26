@@ -6,7 +6,8 @@ public class Temporada {
     private Boolean fin;
 
     //list<Capitulos>capitulos
-    //agregarCapitulo(capitulo capitulo) : void capitulosVistos(): int
+    //agregarCapitulo(capitulo capitulo) : void
+    // capitulosVistos(): int
 }
 
 //temporada conecta con Serie y Capitulo
